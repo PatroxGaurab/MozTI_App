@@ -1,0 +1,156 @@
+<?php
+include("dbconn.php");
+$sercon = serconnection();
+$dbconn = dbconnection($sercon);
+session_start();
+$username = mysql_real_escape_string($_POST['username']);
+$name = mysql_real_escape_string($_POST['name']);
+$email = mysql_real_escape_string($_POST['email']);
+//$department = mysql_real_escape_string($_POST['department']);
+$gender = mysql_real_escape_string($_POST['gender']);
+$relation = mysql_real_escape_string($_POST['relation']);
+$mobno = mysql_real_escape_string($_POST['mobno']);
+
+/*
+if(preg_match('#^(([a-z0-9!\#$%&\\\'*+/=?^_`{|}~-]+\.?)*[a-z0-9!\#$%&\\\'*+/=?^_`{|}~-]+)@(([a-z0-9-_]+\.?)*[a-z0-9-_]+)\.[a-z]{2,}$#i',$_POST['email']))
+			{
+				$username = mysql_real_escape_string($_POST['username']);
+				$name = mysql_real_escape_string($_POST['name']);
+				$email = mysql_real_escape_string($_POST['email']);
+				$department = mysql_real_escape_string($_POST['department']);
+				$gender = mysql_real_escape_string($_POST['gender']);
+				$relation = mysql_real_escape_string($_POST['relation']);
+				$mobno = mysql_real_escape_string($_POST['mobno']);
+				$dn = mysql_num_rows(mysql_query('select id from details where email="'.$email.'"'));
+				if($dn==0)
+				{
+					$dn2 = mysql_num_rows(mysql_query('select id from users'));
+					$id = $dn2+1;
+					if(mysql_query('insert into details values ('.$id.', "'.$name.'", "'.$email.'", "'.$department.'", "'.$relation.'", "'.$gender.'", "'.$status.'")'))
+					{
+						//$form = false;
+
+					}
+					else
+					{
+						//$form = true;
+						$message = 'An error occurred while signing you up.';
+					}
+				}
+				else
+				{
+					$form = true;
+					$message = 'Another user already use this username.';
+				}
+			}
+			else
+			{
+				$form = true;
+				$message = 'The email you typed is not valid.';
+			}
+*/
+//$sql = "select '$email' CNT from details";
+//$st = mysql_query($sql,$sercon);
+
+				$dn = mysql_num_rows(mysql_query('select id from details where email="'.$email.'"'));
+				if($dn==0)
+				{
+					$dn2 = mysql_num_rows(mysql_query('select id from details'));
+					$id = $dn2+1;
+					$sql = "insert into details values ($id,'$name','$email','$relation','$gender','$username','false','$mobno')";
+
+					mysql_query($sql,$sercon);
+
+					//$to = "someone@example.com";
+					$subject = "MozTI@BESU-Event Registration.";
+					$message = "Hello $name!
+Thanks for registering for the event. You Registration Code is MozTI$id.
+If you have any suggestion regarding the events, speakers, session etc, do feedback us.
+Please read the following carefully
+
+Since you have successfully registered and have been added to our database of attendees your seat is reserved.
+
+Please bring your Identity Proof on the day of the event
+
+You have to tell the Registration Code sent to you on mail on the day of the event.
+
+Regularly visit our website for further updates.
+MozTI@BESU Team
+moztiatbesu@students.becs.ac.in";
+					$from = "moztiatbesu@students.becs.ac.in";
+					$headers = "From:" . $from;
+					mail($email,$subject,$message,$headers);
+					//echo "Mail Sent.";
+					echo "<script>window.location = 'thanks.html'</script>";
+				}
+				else
+				{
+					echo "<script>alert('Something went wrong, Please try again')</script>";
+
+					echo "<script>window.location = 'register.html'</script>";
+				}
+	
+/*while ($row = mysql_fetch_array($st))
+{
+$cnt = $row["CNT"];
+}
+if($cnt == 0)
+{
+$maxid = 1;
+}
+else
+{
+$sql = "select max(id) CNT from details";
+$st = mysql_query($sql,$sercon);
+while ($row = mysql_fetch_array($st))
+{
+$mr = $row["CNT"];
+}
+$maxid = $mr + 1;
+}
+//echo $maxid;
+$sql = "select count(*) CNT from details where email='$email'";
+$st = mysql_query($sql,$sercon);
+while ($row = mysql_fetch_array($st))
+{
+$emlcnt = $row["CNT"];
+}
+if ($emlcnt  > 0)
+{
+echo "<script>alert('This e-mail ID already exists')</script>";
+echo "<script>window.location = 'register.html'</script>";
+}
+$sql = "select count(*) CNT from details where username='$username'";
+$st = mysql_query($sql,$sercon);
+while ($row = mysql_fetch_array($st))
+{
+$usrcnt = $row["CNT"];
+}
+if ($usrcnt > 0)
+{
+echo "<script>alert('This username already exists')</script>";
+echo "<script>window.location = 'register.html'</script>";
+}
+if ($emlcnt == 0 && $usrcnt == 0)
+{
+$sql = "insert into details values ($maxid,'$name','$email','$relation','$gender','$username','false')";
+mysql_query($sql,$sercon);
+$sql = "select count(*) CNT from details where username='$username'";
+$st = mysql_query($sql,$sercon);
+while ($row = mysql_fetch_array($st))
+{
+$usrcnt = $row["CNT"];
+}
+if ($usrcnt > 0)
+{
+//echo "<script>alert('Congrats! You have registered successfully. You will be approved soon.')";
+//echo "hmm";
+echo "<script>window.location = 'thanks.html'</script>";
+}
+else
+{
+echo "<script>alert('Something went wrong, Please try again')</script>";
+echo "<script>window.location = 'register.html'</script>";
+}
+}*/
+?>

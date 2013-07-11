@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour 1.0 by HTML5 Up!
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MozTI@BESU</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
+		<script src="js/jquery.dropotron-1.2.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/5grid/core.css" />
+			<link rel="stylesheet" href="css/5grid/core-desktop.css" />
+			<link rel="stylesheet" href="css/5grid/core-1200px.css" />
+			<link rel="stylesheet" href="css/5grid/core-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+
+
+	</head>
+	<body class="homepage">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=343375299032288";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<!-- Header Wrapper -->
+			<div id="header-wrapper">
+				<div class="5grid-layout">
+					<div class="row">
+						<div class="12u">
+						
+							<!-- Header -->
+								<header id="header">
+									<div class="inner">
+									
+										<!-- Logo -->
+											<h1><a href="http://www.becs.ac.in" class="mobileUI-site-name">BESU, Shibpur</a></h1>
+										
+										<!-- Nav -->
+											<nav id="nav" class="mobileUI-site-nav">
+												<ul>
+													<li class="current_page_item"><a href="index.html">Home</a></li>
+													<li>
+														<a href="events.html" class="arrow">Events</a>
+														<ul>
+															<li><a href="#">Introduction to Mozilla & FOSS</a></li>
+															
+															<li>
+																<span class="arrow">Talk sessions</span>
+																<ul>
+																	<li><a href="#">Webmaker initiatives</a></li>
+																	<li><a href="#">Firefox OS</a></li>
+																</ul>
+															</li>
+
+<li>
+																<span class="arrow">Hands-on sessions</span>
+																<ul>
+																	<li><a href="#">Webmaker Tools</a></li>
+																	<li><a href="#">Firefox OS</a></li>
+<li><a href="#">Apps for Marketplace</a></li>
+																</ul>
+															</li>
+															<li><a href="#">Getting Involved with Mozilla</a></li>
+														</ul>
+													</li>
+													<li><a href="register.html">Register</a></li>
+													<li><a href="howtoreach.html">How To Reach</a></li>
+													<li><a href="hereweare.html">Here We Are</a></li>
+												</ul>
+											</nav>
+									
+									</div>
+								</header>
+
+							<!-- Banner -->
+								<div id="banner">
+									<h2><strong></strong> <br /><br /><br /><br />    
+									 </h2>
+									<p></p><p></p><br/>
+									<a href="register.html" class="button button-big button-icon button-icon-check">Register Here</a>
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="main-wrapper-style1">
+					<div class="inner">
+				
+						<!-- Feature 1 -->
+							<section class="5grid-layout box-feature1">
+								<div class="row">
+									<div class="12u">
+										<header class="first major">
+											<h2>A TWo DAY EVENT DEDICATED TO OPENSOURCE</h2>
+											<span class="byline"> WHERE WE WILL BE TALKING ABOUT RECENT TRENDS IN <strong>FOSS</strong> (FREE AND OPEN SOURCE SOFTWARE) WHICH WILL ENCOURAGE STUDENTS AND PROFESSIONALS IN KOLKATA TO FORM AN ACTIVE AND DEDICATED DEVELOPER COMMUNITY</span>
+										</header>
+									</div>
+								</div><!--
+								<div class="row">
+									<div class="4u">
+										<section>
+											<span class="image image-full"><img src="images/pic01.jpg" alt="" /></span>
+											<header class="second second-friends">
+												<h3>FOSS Whats That</h3>
+												<span class="byline">Nevermind we'll bother<br/> for beginners like you</span>
+											</header>
+										</section>
+									</div>
+									<div class="4u">
+										<section>
+											<span class="image image-full"><img src="images/pic02.jpg" alt="" /></span>
+											<header class="second second-gear">
+												<h3>Really Close Up</h3>
+												<span class="byline">This looks pretty harmless</span>
+											</header>
+										</section>
+									</div>
+									<div class="4u">
+										<section>
+											<span class="image image-full"><img src="images/pic03.jpg" alt="" /></span>
+											<header class="second second-chart">
+												<h3>Hand-On workshops</h3>
+												<span class="byline">Reach upto new heights</span>
+											</header>
+										</section>
+									</div>
+
+								</div>-->
+								<div class="row">
+									<div class="12u">
+										<p>This is the kickstart event for Mozilla Kolkata Community where we will bother for all the community members and potential future developers. There will be events for people starting for the beginners who have passion for contributing to FOSS and also hackathons for code gurus. There will also be totally interractive, discussion based events where everyone can place their ideas regarding FOSS or how to get involved etc.</p><p> So don't miss it.</p>
+									</div>
+								</div>
+							</section>
+
+
+
+					</div>
+				</div>
+				<div class="main-wrapper-style2">
+					<div class="inner">
+				
+						<!-- Feature 2 -->
+							<section class="5grid-layout box-feature2">
+								<div class="row">
+									<div class="6u">
+										<section class="pad-right">
+											<header class="major">
+												<h2>I want to know..</h2>
+												<span class="byline">For further queries go to Here We Are</span>
+											</header>
+
+<div class="fb-like" data-href="https://www.facebook.com/events/187291781409708" data-send="true" data-width="450" data-show-faces="true" data-font="arial"></div>
+											<p>If you have any suggestion regarding the event or any other queries feel free to contact any of the organizers or coordinators. Looking forward to meet you on that day.</p>
+											<footer>
+												<a href="hereweare.html" class="button button-medium button-icon button-icon-rarrow">Here We Are</a>
+											</footer>
+										</section>
+									</div>
+									<div class="6u">
+										<section class="pad-left">
+											<header class="major">
+												<h2>How To Reach</h2>
+												<span class="byline">Your answer is here</span>
+											</header>
+											<p>BESU is just 15 to 20 minutes drive away from central Kolkata and Howrah Railway Station. For details of how to reach to BESU from different locations please visit the link below..</p>
+											<footer>
+												<a href="howtoreach.html" class="button button-medium button-alt button-icon button-icon-info">How To Reach</a>
+											</footer>
+										</section>
+									</div>
+								</div>
+							</section>
+
+						</div>
+				</div>
+				<div class="main-wrapper-style3">
+					<div class="inner">
+						<div class="5grid-layout">
+							<div class="row">
+								<div class="8u">
+
+									<!-- Article list -->
+
+										
+								</div>
+								<div class="4u">
+								
+									<!-- Spotlight -->
+										
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="5grid-layout">
+					<div class="row">
+						<div class="3u">
+						
+							<!-- Links -->
+								<section>
+									<h2>Mozilla Links</h2>
+									<ul class="style2">
+										<li><a href="http://www.mozilla.org">Mozilla Foundation</a></li>
+										<li><a href="http://www.mozilla.org/en-US/firefoxos/">Firefox OS</a></li>
+										<li><a href="https://affiliates.mozilla.org/en-US/">Become An Affiliate</a></li>
+										<li><a href="http://www.mozilla.org/en-US/about/">Get To Know Mozilla</a></li>
+										<li><a href="http://www.mozilla.org/en-US/apps/">Marketpalce</a></li>
+										<li><a href="http://www.mozilla.org/en-US/contribute/">Get Involved</a></li>
+										<li><a href="http://careers.mozilla.org/en-US/">Careers at Mozilla</a></li>
+										<li><a href="http://www.mozilla.org/en-US/thunderbird/">Thunderbird</a></li>
+										<li><a href="https://webmaker.org/en-US/webmaker">Webmaker</a></li>
+										<li><a href="http://www.mozilla.org/en-US/persona/">Persona</a></li>
+										<li><a href="https://developer.mozilla.org/en-US/docs/Tools">Developer Tools</a></li>
+									</ul>
+								</section>
+						
+						</div>
+						<div class="3u">
+						
+							<!-- Links -->
+								<section>
+									<h2>FOSS Links</h2>
+									<ul class="style2">
+										<li><a href="http://iglug-cal.org/">LIUG-Cal</a></li>
+										<li><a href="http://foss.in/">FOSS</a></li>
+										<li><a href="#">Wikipedia</a></li>
+										<li><a href="https://lists.mozilla.org/listinfo/community-india">Mozilla Community</a></li>
+									</ul>
+								</section>
+						
+							<!-- Links -->
+								<section>
+									<h2>BESU Links</h2>
+									<ul class="style2">
+										<li><a href="www.becs.ac.in">BESU Home</a></li>
+										<li><a href="cs.becs.ac.in">COENSOBEC</a></li>
+										<li><a href="www.instruo.in">Instruo</a></li>
+										<li><a href="www.robodarshan.org">Robodarshan-BESU Robotics Society</a></li>
+									</ul>
+								</section>
+						
+						</div>
+						<div class="6u">
+						
+							<!-- About -->
+								<section>
+									<h2>the COmputer ENgineers' SOciety of BE College <strong>COENSOBEC</strong> </h2>
+									<p>It is the club in BESU involving all the current students, faculty and the alumni of <a href="http://cs.becs.ac.in">Computer Science and Technology</a> looking after all the extra-curricular activities in the department</p>
+									
+								</section>
+						
+							<!-- Contact -->
+								<section>
+									<h2>Get in touch</h2>
+									<div class="5grid">
+										<div class="row">
+											<div class="6u">
+												<dl class="contact">
+													<dt></dt>
+													<dd><a ></a></dd>
+													<dt></dt>
+													<dd><a </a></dd>
+													<dt>WWW</dt>
+													<dd><a href="http://www.becs.ac.in">becs.ac.in</a></dd>
+													<dt>Email</dt>
+													<dd><a href="mailto:moztiatbesu@students.becs.ac.in">moztiatbesu@students.becs.ac.in</a></dd>
+												</dl>
+											</div>
+											<div class="6u">
+												<dl class="contact">
+													<dt>BESU</dt>
+													<dd>
+														Shibpur, Howrah<br />
+														 West Bengal 711103 <br />
+														India
+													</dd>
+													<dt></dt>
+													<dd></dd>
+												</dl>
+											</div>
+										</div>
+									</div>
+								</section>
+						
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div id="copyright">
+								&copy; COENSOBEC. All rights reserved | Design: <a href="http://html5up.net/">HTML5 Up!</a> | Developer: <a href="http://www.facebook.com/gaurab.patra/">Gaurab Patra</a> | <a href="http://www.freedomain.co.nr/" target="_blank" title="Free Domain Name Registration"><img src="http://sseemna.imdrv.net/coimage.gif" width="88" height="31" border="0" alt="Free Domain Name Registration" /></a>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+	</body>
+</html>
